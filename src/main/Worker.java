@@ -60,6 +60,7 @@ public class Worker {
     
     private void initializeWages()
     {
+        logger.debug("InicjalizujemyWagi");
         wages = new double[11];
         for (int i = 0; i < wages.length; i++) {
 		wages[i] = 1.0d/11.0d;
