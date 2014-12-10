@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sets>
+  <quantifiers>
+   <!--Kwantyfikatory typu I -->
+	<quantifierTypeOne type="relative">
+		<name>znikoma ilość</name>
+		<modifierLabel> znacząco</modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0</a>
+			<b>0.15</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>około połowy II</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.4</a>
+			<b>0.5</b>
+			<c>0.6</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>mało kto</name>
+		<modifierLabel> całkowicie</modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.00</a>
+			<b>0.15</b>
+			<c>0.30</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>około 1/4</name>
+	    <modifierLabel> ponad</modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.15</a>
+			<b>0.25</b>
+			<c>0.35</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>mniej niż połowa</name>
+		<modifierLabel> niecałe</modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0.27</a>
+			<b>0.49</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>około połowa</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.35</a>
+			<b>0.5</b>
+			<c>0.65</c>
+		</membership>
+	 </quantifierTypeOne>	
+	 <quantifierTypeOne type="relative">
+		<name>ponad połowa</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0.51</a>
+			<b>0.75</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>około 3/4</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.60</a>
+			<b>0.75</b>
+			<c>0.87</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>większość</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0.6</a>
+			<b>0.9</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>prawie wszyscy</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0.85</a>
+			<b>1.0</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="absolute">
+		<name>mniej niż 2000</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0</a>
+			<b>2000</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="absolute">
+		<name>około 4000</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>1700</a>
+			<b>4000</b>
+			<c>5500</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="absolute">
+		<name>mniej niż 6000</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>4000</a>
+			<b>6000</b>
+		</membership>
+	 </quantifierTypeOne>	 	 
+	 <quantifierTypeOne type="absolute">
+		<name>około 7500</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>5000</a>
+			<b>7500</b>
+			<c>9000</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="absolute">
+		<name>prawie 10000</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>8000</a>
+			<b>10000</b>			
+		</membership>
+	 </quantifierTypeOne>	 
+	 <quantifierTypeOne type="absolute">
+		<name>więcej niż 100</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>100</a>
+			<b>9000</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <!-- Kwantyfikatory typu II -->
+	 <quantifierTypeTwo type="absolute">
+		<name>więcej niż 100</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<universe2 typeofmembership="triangular" width="0.2">
+			<start>0.0</start>
+			<end>1.0</end>
+		    <step>0.01</step>
+		</universe2>
+		<membership type="triangular">
+			<a>50.0</a>
+			<b>100.0</b>
+			<c>300.0</c>
+		</membership>
+	 </quantifierTypeTwo>
+	 	 <quantifierTypeTwo type="relative">
+		<name>około 1/4</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<universe2 typeofmembership="triangular" width="0.2">
+			<start>0.0</start>
+			<end>1.0</end>
+		    <step>0.01</step>
+		</universe2>
+		<membership type="triangular">
+			<a>0.15</a>
+			<b>0.25</b>
+			<c>0.35</c>
+		</membership>
+	 </quantifierTypeTwo>
+	 	 <quantifierTypeTwo type="relative">
+		<name>około 1/2</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<universe2 typeofmembership="triangular" width="0.2">
+			<start>0.0</start>
+			<end>1.0</end>
+		    <step>0.01</step>
+		</universe2>
+		<membership type="triangular">
+			<a>0.35</a>
+			<b>0.5</b>
+			<c>0.65</c>
+		</membership>
+	 </quantifierTypeTwo>
+	 	 <quantifierTypeTwo type="absolute">
+		<name>mniej niż 2000</name>
+		<modifierLabel> </modifierLabel>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<universe2 typeofmembership="triangular" width="0.2">
+			<start>0.0</start>
+			<end>1.0</end>
+		    <step>0.01</step>
+		</universe2>
+		<membership type="rectengular">
+			<a>0.0</a>
+			<b>2000.0</b>
+		</membership>
+	 </quantifierTypeTwo>
+  </quantifiers>
+   <qualifiers>
+  <!-- Kwalifikator dla meczy wygranych -->
+	<qualifier>
+		<name>mała liczba wygranych meczy</name>
+		<label>mało wygranych</label>
+		<attribute>wins</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>55.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>0.0</a>
+			<b>5.0</b>
+		</membership>
+	</qualifier>
+	<qualifier>
+		<name>średnia liczba wygranych meczy</name>
+		<label>śrdnio wygranych</label>
+		<attribute>wins</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>55.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="triangular">
+			<a>3.0</a>
+			<b>10.0</b>
+			<c>20.0</c>
+		</membership>
+	</qualifier>	
+	<qualifier>
+		<name>większość liczba wygranych meczy</name>
+		<label>większość</label>
+		<attribute>wins</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>55.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="triangular">
+			<a>10.0</a>
+			<b>18.0</b>
+			<c>25.0</c>
+		</membership>
+	</qualifier>		
+	<qualifier>
+		<name>duża liczba wygranych meczy</name>
+		<label>dużo</label>
+		<attribute>wins</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>55.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>22.0</a>
+			<b>55.0</b>
+		</membership>
+	</qualifier>		
+	<!-- Kwalifikatory dla gameStarted -->
+	<qualifier>
+		<name>mała liczba meczy od początku</name>
+		<label>małoMeczyOdPoczątku</label>
+		<attribute>gamesStarted</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>90.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>0.0</a>
+			<b>10.0</b>
+		</membership>
+	</qualifier>
+	<qualifier>
+		<name>średnia liczba meczy od początku</name>
+		<label>śrdnioMeczyOdPoczatku</label>
+		<attribute>gamesStarted</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>90.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="triangular">
+			<a>5.0</a>
+			<b>20.0</b>
+			<c>30.0</c>
+		</membership>
+	</qualifier>	
+	<qualifier>
+		<name>większość liczba meczy od początku</name>
+		<label>większośćMeczyOdPoczątku</label>
+		<attribute>gamesStarted</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>90.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="triangular">
+			<a>25.0</a>
+			<b>40.0</b>
+			<c>55.0</c>
+		</membership>
+	</qualifier>		
+	<qualifier>
+		<name>duża liczba meczy od poczatku</name>
+		<label>dużoMeczyOdPoczatku</label>
+		<attribute>gamesStarted</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>90.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>50.0</a>
+			<b>90.0</b>
+		</membership>
+	</qualifier>
+  <!-- Kwalifikator dla meczy zaliczonych biegów -->
+	<qualifier>
+		<name>małą liczbę zaliczonych biegów</name>
+		<label>mało</label>
+		<attribute>earnedRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.0</a>
+			<b>50.0</b>
+			<c>100.0</c>
+		</membership>
+	</qualifier>
+	<qualifier>
+		<name>średnią liczbę zaliczonych biegów</name>
+		<label>średnio</label>
+		<attribute>earnedRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>75.0</a>
+			<b>125.0</b>
+			<c>200.0</c>
+		</membership>
+	</qualifier>	
+	<qualifier>
+		<name>większą liczbę zaliczonych biegów</name>
+		<label>większość</label>
+		<attribute>earnedRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>200.0</a>
+			<b>275.0</b>
+			<c>350.0</c>
+		</membership>
+	</qualifier>		
+	<qualifier>
+		<name>dużą liczbę zaliczonych biegów</name>
+		<label>dużo</label>
+		<attribute>earnedRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>800.0</end>
+			<step>1.0</step>
+		</universe>
+		<membership type="triangular">
+			<a>300</a>
+			<b>400</b>
+			<c>800</c>
+		</membership>
+	</qualifier>
+  <!-- Kwalifikator dla hit(uderzeń) -->
+	<qualifier>
+		<name>małą liczbę uderzeń</name>
+		<label>mało</label>
+		<attribute>hits</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.0</a>
+			<b>150.0</b>
+			<c>300.0</c>
+		</membership>
+	</qualifier>
+	<qualifier>
+		<name>średnią liczbę uderzeń</name>
+		<label>średnio</label>
+		<attribute>hits</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>250.0</a>
+			<b>400.0</b>
+			<c>600.0</c>
+		</membership>
+	</qualifier>	
+	<qualifier>
+		<name>większą liczbę uderzeń</name>
+		<label>większość</label>
+		<attribute>hits</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>500.0</a>
+			<b>600.0</b>
+			<c>1000.0</c>
+		</membership>
+	</qualifier>		
+	<qualifier>
+		<name>dużą liczbę uderzeń</name>
+		<label>dużo</label>
+		<attribute>hits</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1800.0</end>
+			<step>1.0</step>
+		</universe>
+		<membership type="triangular">
+			<a>600</a>
+			<b>100</b>
+			<c>1800</c>
+		</membership>
+	</qualifier>
+ <!-- Kwalifikator dla asów ( home runs) -->
+	<qualifier>
+		<name>małą liczbę asów</name>
+		<label>mało</label>
+		<attribute>homeRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>300.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.0</a>
+			<b>40.0</b>
+			<c>80.0</c>
+		</membership>
+	</qualifier>
+	<qualifier>
+		<name>średnią liczbę asów</name>
+		<label>średnio</label>
+		<attribute>homeRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>300.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>30.0</a>
+			<b>60.0</b>
+			<c>90.0</c>
+		</membership>
+	</qualifier>	
+	<qualifier>
+		<name>większą liczbę asów</name>
+		<label>większość</label>
+		<attribute>homeRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>300.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>75.0</a>
+			<b>100.0</b>
+			<c>150.0</c>
+		</membership>
+	</qualifier>		
+	<qualifier>
+		<name>dużą liczbę uderzeń</name>
+		<label>dużo</label>
+		<attribute>homeRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>300.0</end>
+			<step>1.0</step>
+		</universe>
+		<membership type="triangular">
+			<a>110</a>
+			<b>170</b>
+			<c>300</c>
+		</membership>
+	</qualifier>
+ <!-- Kwalifikator dla porazek (losses) -->
+	<qualifier>
+		<name>małą liczbę porażek</name>
+		<label>mało</label>
+		<attribute>losses</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>50.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.0</a>
+			<b>5.0</b>
+			<c>15.0</c>
+		</membership>
+	</qualifier>
+	<qualifier>
+		<name>średnią liczbę porażek</name>
+		<label>średnio</label>
+		<attribute>losses</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>50.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>5.0</a>
+			<b>10.0</b>
+			<c>15.0</c>
+		</membership>
+	</qualifier>	
+	<qualifier>
+		<name>większą liczbę porażek</name>
+		<label>większość</label>
+		<attribute>losses</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>50.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>11.0</a>
+			<b>15.0</b>
+			<c>17.0</c>
+		</membership>
+	</qualifier>		
+	<qualifier>
+		<name>dużą liczbę porażek</name>
+		<label>dużo</label>
+		<attribute>losses</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>50.0</end>
+			<step>1.0</step>
+		</universe>
+		<membership type="triangular">
+			<a>15</a>
+			<b>25</b>
+			<c>50</c>
+		</membership>
+	</qualifier>			
+  </qualifiers>
+  <summarizers>
+		<!-- Tutaj sumaryzatory dla wins -->
+		<summarizer>
+			<name>małą liczbę rozegranych meczy</name>
+			<label>mało</label>
+			<attribute>wins</attribute>
+			<universe type="continuous">
+				<start>0.0</start>
+				<end>55</end>
+				<step>1</step>
+			</universe>
+			<membership type="rectangular">
+				<a>0.0</a>
+				<b>5.0</b>				
+			</membership>
+		</summarizer>
+		<summarizer>
+			<name>średnią liczbę rozegranych meczy</name>
+			<label>średnio</label>
+			<attribute>wins</attribute>
+			<universe type="continuous">
+				<start>0.0</start>
+				<end>55</end>
+				<step>1</step>
+			</universe>
+			<membership type="triangular">
+				<a>3.0</a>
+				<b>8.0</b>	
+				<c>15.0</c>
+			</membership>
+		</summarizer>
+		<summarizer>
+			<name>większą liczbę rozegranych meczy</name>
+			<label>większość</label>
+			<attribute>wins</attribute>
+			<universe type="continuous">
+				<start>0.0</start>
+				<end>55</end>
+				<step>1</step>
+			</universe>
+			<membership type="triangular">
+				<a>10.0</a>
+				<b>18.0</b>	
+				<c>25.0</c>
+			</membership>
+		</summarizer>
+		<summarizer>
+			<name>dużą liczba rozegranych meczy</name>
+			<label>dużo</label>
+			<attribute>wins</attribute>
+			<universe type="continuous">
+				<start>0</start>
+				<end>55</end>
+				<step>1</step>
+			</universe>
+			<membership type="rectangular">
+				<a>22.0</a>
+				<b>55.0</b>
+			</membership>
+		</summarizer>	
+		<!-- Tutaj sumaryzatory dla games started -->
+		<summarizer>
+			<name>małą liczbę meczy od początku</name>
+			<label>małoMeczyOdPoczatku</label>
+			<attribute>gamesStarted</attribute>
+			<universe type="continuous">
+				<start>0.0</start>
+				<end>90</end>
+				<step>1</step>
+			</universe>
+			<membership type="rectangular">
+				<a>0.0</a>
+				<b>10.0</b>				
+			</membership>
+		</summarizer>
+		<summarizer>
+			<name>średnią liczbę meczy od początku</name>
+			<label>średnioMeczyOdPoczatku</label>
+			<attribute>gamesStarted</attribute>
+			<universe type="continuous">
+				<start>0.0</start>
+				<end>90</end>
+				<step>1</step>
+			</universe>
+			<membership type="triangular">
+				<a>5.0</a>
+				<b>20.0</b>	
+				<c>30.0</c>
+			</membership>
+		</summarizer>
+		<summarizer>
+			<name>większą liczbę meczy od początku</name>
+			<label>większośćMeczyOdPoczatku</label>
+			<attribute>gamesStarted</attribute>
+			<universe type="continuous">
+				<start>0.0</start>
+				<end>90</end>
+				<step>1</step>
+			</universe>
+			<membership type="triangular">
+				<a>25.0</a>
+				<b>40.0</b>	
+				<c>55.0</c>
+			</membership>
+		</summarizer>
+		<summarizer>
+			<name>dużą liczba meczy od początku</name>
+			<label>dużoMeczyOdPoczątku</label>
+			<attribute>gamesStarted</attribute>
+			<universe type="continuous">
+				<start>0</start>
+				<end>90</end>
+				<step>1</step>
+			</universe>
+			<membership type="rectangular">
+				<a>50.0</a>
+				<b>90.0</b>
+			</membership>
+		</summarizer>
+  <!-- Sumaryzator dla meczy zaliczonych biegów -->
+	<summarizer>
+		<name>małą liczbę zaliczonych biegów</name>
+		<label>mało</label>
+		<attribute>earnedRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.0</a>
+			<b>50.0</b>
+			<c>100.0</c>
+		</membership>
+	</summarizer>
+	<summarizer>
+		<name>średnią liczbę zaliczonych biegów</name>
+		<label>średnio</label>
+		<attribute>earnedRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>75.0</a>
+			<b>125.0</b>
+			<c>200.0</c>
+		</membership>
+	</summarizer>	
+	<summarizer>
+		<name>większą liczbę zaliczonych biegów</name>
+		<label>większość</label>
+		<attribute>earnedRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>200.0</a>
+			<b>275.0</b>
+			<c>350.0</c>
+		</membership>
+	</summarizer>		
+	<summarizer>
+		<name>dużą liczbę zaliczonych biegów</name>
+		<label>dużo</label>
+		<attribute>earnedRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>800.0</end>
+			<step>1.0</step>
+		</universe>
+		<membership type="triangular">
+			<a>300</a>
+			<b>400</b>
+			<c>800</c>
+		</membership>
+	</summarizer>
+  <!--Sumaryzator dla hist(uderzeń) -->
+	<summarizer>
+		<name>małą liczbę uderzeń</name>
+		<label>mało</label>
+		<attribute>hits</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.0</a>
+			<b>150.0</b>
+			<c>300.0</c>
+		</membership>
+	</summarizer>
+	<summarizer>
+		<name>średnią liczbę uderzeń</name>
+		<label>średnio</label>
+		<attribute>hits</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>250.0</a>
+			<b>400.0</b>
+			<c>600.0</c>
+		</membership>
+	</summarizer>	
+	<summarizer>
+		<name>większą liczbę uderzeń</name>
+		<label>większość</label>
+		<attribute>hits</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1800.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>500.0</a>
+			<b>600.0</b>
+			<c>1000.0</c>
+		</membership>
+	</summarizer>		
+	<summarizer>
+		<name>dużą liczbę uderzeń</name>
+		<label>dużo</label>
+		<attribute>hits</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1800.0</end>
+			<step>1.0</step>
+		</universe>
+		<membership type="triangular">
+			<a>600</a>
+			<b>100</b>
+			<c>1800</c>
+		</membership>
+	</summarizer>
+ <!-- Sumaryzator dla asów ( home runs) -->
+	<summarizer>
+		<name>małą liczbę asów</name>
+		<label>mało</label>
+		<attribute>homeRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>300.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.0</a>
+			<b>40.0</b>
+			<c>80.0</c>
+		</membership>
+	</summarizer>
+	<summarizer>
+		<name>średnią liczbę asów</name>
+		<label>średnio</label>
+		<attribute>homeRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>300.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>30.0</a>
+			<b>60.0</b>
+			<c>90.0</c>
+		</membership>
+	</summarizer>	
+	<summarizer>
+		<name>większą liczbę asów</name>
+		<label>większość</label>
+		<attribute>homeRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>300.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>75.0</a>
+			<b>100.0</b>
+			<c>150.0</c>
+		</membership>
+	</summarizer>		
+	<summarizer>
+		<name>dużą liczbę uderzeń</name>
+		<label>dużo</label>
+		<attribute>homeRuns</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>300.0</end>
+			<step>1.0</step>
+		</universe>
+		<membership type="triangular">
+			<a>110</a>
+			<b>170</b>
+			<c>300</c>
+		</membership>
+	</summarizer>
+ <!-- Sumaryzator dla porazek (losses) -->
+	<summarizer>
+		<name>małą liczbę porażek</name>
+		<label>mało</label>
+		<attribute>losses</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>50.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.0</a>
+			<b>5.0</b>
+			<c>15.0</c>
+		</membership>
+	</summarizer>
+	<summarizer>
+		<name>średnią liczbę porażek</name>
+		<label>średnio</label>
+		<attribute>losses</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>50.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>5.0</a>
+			<b>10.0</b>
+			<c>15.0</c>
+		</membership>
+	</summarizer>	
+	<summarizer>
+		<name>większą liczbę porażek</name>
+		<label>większość</label>
+		<attribute>losses</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>50.0</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>11.0</a>
+			<b>15.0</b>
+			<c>17.0</c>
+		</membership>
+	</summarizer>		
+	<summarizer>
+		<name>dużą liczbę porażek</name>
+		<label>dużo</label>
+		<attribute>losses</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>50.0</end>
+			<step>1.0</step>
+		</universe>
+		<membership type="triangular">
+			<a>15</a>
+			<b>25</b>
+			<c>50</c>
+		</membership>
+	</summarizer>			
+  </summarizers>
+</sets>

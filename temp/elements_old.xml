@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sets>
+  <quantifiers>
+	<quantifierTypeOne type="relative">
+		<name>prawie nikt</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0</a>
+			<b>0.15</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>mało kto</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.05</a>
+			<b>0.15</b>
+			<c>0.22</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>około 1/4</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.2</a>
+			<b>0.25</b>
+			<c>0.3</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>mniej niż połowa</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0.27</a>
+			<b>0.45</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>około połowa</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.4</a>
+			<b>0.5</b>
+			<c>0.6</c>
+		</membership>
+	 </quantifierTypeOne>	
+	 <quantifierTypeOne type="relative">
+		<name>ponad połowa</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0.55</a>
+			<b>0.72</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>około 3/4</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1.0</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="triangular">
+			<a>0.67</a>
+			<b>0.75</b>
+			<c>0.82</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>większość</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0.8</a>
+			<b>0.9</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="relative">
+		<name>prawie wszyscy</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>1</end>
+			<step>0.01</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0.85</a>
+			<b>1.0</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="absolute">
+		<name>mniej niż 2000</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="rectengular">
+			<a>0</a>
+			<b>2000</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="absolute">
+		<name>około 4000</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>1700</a>
+			<b>4000</b>
+			<c>5500</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="absolute">
+		<name>mniej niż 6000</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>5000</a>
+			<b>6000</b>
+		</membership>
+	 </quantifierTypeOne>	 	 
+	 <quantifierTypeOne type="absolute">
+		<name>około 7500</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="triangular">
+			<a>5800</a>
+			<b>7500</b>
+			<c>8500</c>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeOne type="absolute">
+		<name>prawie 10000</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>8000</a>
+			<b>10000</b>			
+		</membership>
+	 </quantifierTypeOne>	 
+	 <quantifierTypeOne type="absolute">
+		<name>więcej niż 100</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>100</a>
+			<b>9000</b>
+		</membership>
+	 </quantifierTypeOne>
+	 <quantifierTypeTwo type="absolute">
+		<name>więcej niż 100</name>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>10000</end>
+			<step>1</step>
+		</universe>
+		<universe2 typeofmembership="triangular" width="0.2">
+			<start>0.0</start>
+			<end>1.0</end>
+		    <step>0.01</step>
+		</universe2>
+		<membership type="triangular">
+			<a>2.0</a>
+			<b>3.0</b>
+			<c>4.0</c>
+		</membership>
+	 </quantifierTypeTwo>
+  </quantifiers>
+  <qualifiers>
+	<qualifier>
+		<name>mała liczba wygranych meczy</name>
+		<label>mało wygranych</label>
+		<attribute>wins</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>55.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>0.0</a>
+			<b>5.0</b>
+		</membership>
+	</qualifier>
+	<qualifier>
+		<name>średnia liczba wygranych meczy</name>
+		<label>średnio wygranych</label>
+		<attribute>wins</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>55.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>3.0</a>
+			<b>10.0</b>
+			<b>20.0</b>
+		</membership>
+	</qualifier>	
+	<qualifier>
+		<name>duża liczba wygranych meczy</name>
+		<label>dużo</label>
+		<attribute>wins</attribute>
+		<universe type="continuous">
+			<start>0.0</start>
+			<end>55.0</end>
+			<step>0.1</step>
+		</universe>
+		<membership type="rectangular">
+			<a>18.0</a>
+			<b>55.0</b>
+		</membership>
+	</qualifier>				
+  </qualifiers>
+  <summarizers>
+		<summarizer>
+			<name>małą liczba wygranych meczy</name>
+			<label>małoo</label>
+			<attribute>gamesStarted</attribute>
+			<universe type="continuous">
+				<start>0.0</start>
+				<end>100</end>
+				<step>1</step>
+			</universe>
+			<membership type="triangular">
+				<a>2.0</a>
+				<b>20</b>
+				<c>40</c>
+			</membership>
+		</summarizer>
+		<summarizer>
+			<name>dużą liczba rozegranych meczy</name>
+			<label>dużoo</label>
+			<attribute>gamesStarted</attribute>
+			<universe type="continuous">
+				<start>0</start>
+				<end>100</end>
+				<step>1</step>
+			</universe>
+			<membership type="rectangular">
+				<a>40</a>
+				<b>75</b>
+			</membership>
+		</summarizer>	
+  </summarizers>
+</sets>
